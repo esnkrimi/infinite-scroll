@@ -7,3 +7,9 @@ Is infinite scroll that fetch data from json file and show it 5 record by record
 I used NHGRX to store fetched data from api(JSON).
 
 I used media detect screen to solve reponive challenges(Text will hide for device with width lower than 800px)
+
+Demonstration: 
+
+https://stackblitz.com/edit/angular-infinite-timing-scrol
+
+https://angular-ivy-rznyw6.stackblitz.io
