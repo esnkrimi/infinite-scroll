@@ -1,0 +1,24 @@
+<ng-container>
+  <div
+    infiniteScroll
+    [infiniteScrollThrottle]="2"
+    (scrolled)="onScrollLoadData()"
+    [scrollWindow]="true"
+  >
+    <div class="card" *ngFor="let item of datas">
+      <div class="card-body">
+        <div class="card-title">
+          <h4>{{ item.fullName }}</h4>
+        </div>
+        <div class="card-title text-muted">
+          <h5>
+            {{ item.email }}
+          </h5>
+        </div>
+        <div class="card-text">
+          {{ item.text }}
+        </div>
+      </div>
+    </div>
+  </div>
+</ng-container>
